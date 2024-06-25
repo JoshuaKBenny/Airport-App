@@ -1,14 +1,16 @@
 import React from 'react'
+import Navbar from './Navbar'
 
 const HomePage = () => {
   return (
     <div>
+      <Navbar/>
       <div className="container">
 
 
       <div className="row g-3">
             <div className="col col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-12">
-               <center> <h1>WELCOME TO FLYX YOUR ULTIMATE COMPANION FOR ALL YOUR AIRPORT NEEDS</h1> </center>
+               <center> <h1>WELCOME TO FLYX </h1> </center>
             </div>
         </div>      
 
